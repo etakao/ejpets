@@ -2,7 +2,7 @@ import React from 'react';
 
 // import Navbar from '../components/menus/Navbar';
 // import Inicio from './Inicio/Inicio';
-// import Servicos from './Servicos/Servicos';
+import Servicos from './Servicos/Servicos';
 import Especies from './Especies/Especies';
 // import Sobre from './Sobre/Sobre';
 // import Contato from './Contato/Contato';
@@ -16,6 +16,7 @@ import Especies from './Especies/Especies';
 export default function Principal() {
   return (
     <div>
+      <Servicos id="servicos" />
       <Especies id="especies" />
     </div>
   );
