@@ -1,7 +1,9 @@
 import React from 'react';
 
+
 // import Navbar from '../components/menus/Navbar';
 // import Inicio from './Inicio/Inicio';
+import FaleConosco from './FaleConosco/FaleConosco';
 import Servicos from './Servicos/Servicos';
 import Especies from './Especies/Especies';
 // import Sobre from './Sobre/Sobre';
@@ -16,6 +18,9 @@ import Especies from './Especies/Especies';
 export default function Principal() {
   return (
     <div>
+      {/* <Inicio id="inicio" /> */}
+      {/* <Navbar /> */}
+      <FaleConosco id="faleconosco"/>
       <Servicos id="servicos" />
       <Especies id="especies" />
     </div>
