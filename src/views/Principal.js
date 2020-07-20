@@ -1,4 +1,5 @@
 import React from 'react';
+import Servicos from './Servicos/Servicos';
 
 // import Navbar from '../components/menus/Navbar';
 // import Inicio from './Inicio/Inicio';
@@ -6,8 +7,8 @@ import React from 'react';
 export default function Principal() {
   return (
     <div>
-      {/* <Inicio id="inicio" /> */}
-      {/* <Navbar /> */}
+      {<Servicos id="servicos" />}
     </div>
+    
   );
 }
