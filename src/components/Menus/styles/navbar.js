@@ -16,9 +16,10 @@ export const Content = styled.nav`
     text-decoration: none;
     top: 0;
     z-index: 50;
-    width: 100vw;
+    width: 100%;
     height: 14rem;
     background-color: #FFFDD0;
+    font-family: Quicksand;
 `;
 
 export const Top = styled.div`
