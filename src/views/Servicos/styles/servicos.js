@@ -4,7 +4,7 @@ export const Divexterna = styled.div`
 
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 241, 193, 1);
+    background-color: #FFFDD0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -15,7 +15,7 @@ export const Divsinternas = styled.div`
     width: 60rem;
     height: 70rem;
     margin: 2rem 2rem 2rem 2rem;    
-    background-color: rgba(255, 241, 193, 1);
+    background-color: #FFFDD0;
     margin: 1rem 1rem 1rem 1rem;    
     display: flex;
     flex-direction: column;

@@ -19,7 +19,7 @@ export default function Navbar(){
                 </Pesquisa>
             </Top>
             <Botoes>
-                <Navlink smooth to={"/"}><Botao>Início</Botao></Navlink>
+                <Navlink smooth to={"/#inicio"}><Botao>Início</Botao></Navlink>
                 <Navlink smooth to={"/"}><Botao>Serviços</Botao></Navlink>
                 <Navlink smooth to={"/#especies"}><Botao>Espécies</Botao></Navlink>
                 <Navlink smooth to={"/"}><Botao>Sobre Nós</Botao></Navlink>
