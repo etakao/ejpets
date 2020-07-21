@@ -10,8 +10,8 @@ import FaleConosco from './FaleConosco/FaleConosco';
 export default function Principal() {
   return (
     <div>
-      <Inicio id="inicio" />
       <Navbar/>
+      <Inicio id="inicio" />
       <Servicos id="servicos" />
       <Especies id="especies" />
       <FaleConosco id="faleconosco" />

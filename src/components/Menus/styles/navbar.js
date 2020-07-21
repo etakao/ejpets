@@ -19,11 +19,10 @@ export const Content = styled.nav`
     width: 100%;
     height: 14rem;
     background-color: #FFFDD0;
-    font-family: Quicksand;
 `;
 
-export const Top = styled.div`
-    width: 100vw;
+export const Top = styled.div` 
+    width: 100%;
     height: 8rem;
     display: flex;
     flex-direction: row;
