@@ -4,7 +4,7 @@ import logopng from '../../assets/SobreNos/logo4.png';
 
 export default function SobreNos(){
     return(
-        <Page>
+        <Page id="sobrenos">
             <Body>
                 <BodyIn>
                     <BoxImage>

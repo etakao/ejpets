@@ -4,16 +4,17 @@ import Navbar from '../components/Menus/Navbar';
 import Inicio from './Inicio/Inicio';
 import Servicos from './Servicos/Servicos';
 import Especies from './Especies/Especies';
-// import Sobre from './Sobre/Sobre';
+import SobreNos from './SobreNos/SobreNos';
 import FaleConosco from './FaleConosco/FaleConosco';
 
 export default function Principal() {
   return (
     <div>
-      <Inicio id="inicio" />
       <Navbar/>
+      <Inicio id="inicio" />
       <Servicos id="servicos" />
       <Especies id="especies" />
+      <SobreNos id="sobrenos" />
       <FaleConosco id="faleconosco" />
     </div>
   );
