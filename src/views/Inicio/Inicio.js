@@ -15,6 +15,7 @@ import {Inferior} from './styles/inicio'
 import {Lateral} from './styles/inicio'
 import {Slides} from './styles/inicio'
 import {Apresentacao} from './styles/inicio'
+import {DivExterna} from './styles/inicio'
 
 export default function Inicio(){
     let arrayImg = [<ImgComp src={i1}/>, 
@@ -55,7 +56,7 @@ export default function Inicio(){
 
         
         return(
-            <div id="inicio">
+            <DivExterna id="inicio">
                 <Apresentacao>
                 {
                 arrayImg.map((item,index) => {
@@ -98,7 +99,7 @@ export default function Inicio(){
                         </Bolinha>
                     </Lista>
                 </Inferior>
-            </div>
+            </DivExterna>
 
         );
 }

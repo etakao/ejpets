@@ -15,7 +15,7 @@ import imagem4 from "../../assets/Servicoss/servtransporte.jpg";
 
 export default function Servicos() {
     return(
-        <Divexterna>
+        <Divexterna id="servicos">
             <Divsinternas>
                 <Divserv>
                     <Divfoto>

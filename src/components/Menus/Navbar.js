@@ -20,10 +20,10 @@ export default function Navbar(){
             </Top>
             <Botoes>
                 <Navlink smooth to={"/#inicio"}><Botao>Início</Botao></Navlink>
-                <Navlink smooth to={"/"}><Botao>Serviços</Botao></Navlink>
+                <Navlink smooth to={"/#servicos"}><Botao>Serviços</Botao></Navlink>
                 <Navlink smooth to={"/#especies"}><Botao>Espécies</Botao></Navlink>
-                <Navlink smooth to={"/"}><Botao>Sobre Nós</Botao></Navlink>
-                <Navlink smooth to={"/"}><Botao>Fale Conosco</Botao></Navlink>
+                <Navlink smooth to={"/#sobrenos"}><Botao>Sobre Nós</Botao></Navlink>
+                <Navlink smooth to={"/#faleconosco"}><Botao>Fale Conosco</Botao></Navlink>
             </Botoes>
       </Content>
 

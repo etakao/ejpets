@@ -6,7 +6,7 @@ import styled from 'styled-components';
 export const Content = styled.nav`
     //AQUI VAI O CSS
 
-    position: sticky;
+    position: fixed;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -15,11 +15,10 @@ export const Content = styled.nav`
     font-size: 17px;
     text-decoration: none;
     top: 0;
-    z-index: 50;
+    z-index: 100;
     width: 100%;
     height: 14rem;
     background-color: #FFFDD0;
-    font-family: Quicksand;
 `;
 
 export const Top = styled.div`

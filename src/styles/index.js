@@ -14,7 +14,7 @@ export default createGlobalStyle`
     body,
     #root {
       height: 100%;
-      font-family: 'Lato', sans-serif;
+      font-family: 'Quicksand', sans-serif;
       font-size: 62.5%; /* A cada 1rem equivale a 10px */
       background-color: #FFFDD0;
     }

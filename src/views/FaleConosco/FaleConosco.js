@@ -7,7 +7,7 @@ import { FiSend, FiFacebook, FiInstagram, FiTwitter, FiYoutube } from 'react-ico
 
 export default function FaleConosco(){
     return(
-        <Fundo>
+        <Fundo id="faleconosco">
             <Principal>
                 <Conteudo>
                     <Formulario>
