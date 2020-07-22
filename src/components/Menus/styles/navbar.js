@@ -23,7 +23,7 @@ export const Content = styled.nav`
 `;
 
 export const Top = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 8rem;
     display: flex;
     flex-direction: row;
