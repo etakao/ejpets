@@ -12,7 +12,7 @@ export const Body = styled.div`
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #FFFDD0;
     padding: 1.5rem 2rem;
     padding-top: 14rem;
 `;
