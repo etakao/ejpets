@@ -11,9 +11,10 @@ export const Body = styled.div`
     display: flex;
     align-items: center;
     width: 100%;
-    height: 60rem;
+    height: 100%;
     background-color: #FFFDD0;
     padding: 2.5rem 2rem;
+    background-color: #FFFDD0;
 `;
 
 export const BodyIn = styled.div`
