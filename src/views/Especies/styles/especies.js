@@ -9,24 +9,27 @@ export const Content = styled.div`
 
 export const Texto = styled.ul`
     display: grid;
+    min-width: 130rem;
     justify-items: center;
     grid-template-columns: repeat(4, 1fr);
-    padding-left: 12rem;
+    padding-left: 4rem;
     padding-top: 23.6rem;
-    column-gap: 16.2rem;
     row-gap: 20.2rem;
-    position: absolute;
     font-size: 4rem;
     font-family: Quicksand;
     font-weight: bolder;
     color: #FFFFFF;
+    position: relative;
+    z-index: 1
 `;    
 
 export const Imagens = styled.ul`
     display: grid;
+    margin-top: -68rem;
     grid-template-columns: repeat(4, 1fr);
     padding-left: 11.5rem;
     padding-top: 15rem;
+    column-gap: 6.5rem;
     row-gap: 7rem;
 
     li {
