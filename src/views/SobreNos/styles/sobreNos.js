@@ -1,20 +1,20 @@
 import styled from 'styled-components';
 
-
 export const Page = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 74rem;
+    padding-top: 14rem;
     background-color: #FFFDD0;
 `;
 
 export const Body = styled.div`
-    display:flex;
+    display: flex;
     align-items: center;
     width: 100%;
     height: 100%;
     background-color: #FFFDD0;
-    padding: 1.5rem 2rem;
-    padding-top: 14rem;
+    padding: 2.5rem 2rem;
+    background-color: #FFFDD0;
 `;
 
 export const BodyIn = styled.div`
@@ -39,7 +39,7 @@ export const BoxTitle = styled.div`
 
 export const Title = styled.span`
     font-size: 2.4rem;
-    color:#000000;
+    color: #000000;
     font-style: normal;
 `;
 
@@ -68,7 +68,7 @@ export const BoxText = styled.div`
 `;
 
 export const BoxInfo = styled.div`
-    width: 100%;
+    width: 90%;
     background-color: #FFFFFF;
     border-radius: 5rem;
     margin-top: 1rem;
@@ -80,5 +80,5 @@ export const Text = styled.p`
     font-style: normal;
     text-align: justify;
     text-indent: 5rem;
-    padding: 1.5rem 1.5rem;
+    padding: 2.5rem 2.5rem;
 `;

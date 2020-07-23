@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
-
-
 export const Fundo = styled.div`
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #FFFDD0;
-    height: 63.3rem;
+    height: 60rem;
+    width: 100%;
+    padding: 0 2rem;
 `;
 
 export const Principal = styled.div`
@@ -14,15 +15,15 @@ export const Principal = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #E6C574;
-    width: 90%;
-    height: 100%;
+    width: 100%;
+    height: 90%;
 `;
 
 export const Conteudo = styled.div`
     display: flex;
     justify-content: space-between;
     width: 80%;
-    height: 95%;
+    height: 90%;
     font-family: 'Quicksand', sans-serif;
 `;
 
@@ -56,7 +57,7 @@ export const Formulario = styled.div`
         }
 
         textarea{
-            height: 16rem;
+            height: 14rem;
             margin-top: 2.5rem;
             background-color: #fff;
             border-radius: 0.5rem;
@@ -121,7 +122,5 @@ export const SocialPages = styled.div`
         font: bold;
         margin-left: 2rem;
     }
-
-    
 `;
 

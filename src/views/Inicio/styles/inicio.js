@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const DivExterna = styled.div`
+    position: relative;
+    padding-top: 8.5rem;
+    width: 100%;
+    height: 70rem;
+`
 
 export const Apresentacao = styled.div`
 position: relative;
